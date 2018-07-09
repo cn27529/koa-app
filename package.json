@@ -20,7 +20,6 @@
   },
   "homepage": "https://github.com/cn27529/koa-app#readme",
   "dependencies": {
-    "babel-runtime": "^6.26.0",
     "koa": "^2.5.1"
   },
   "devDependencies": {
@@ -29,9 +28,13 @@
     "babel-loader": "^7.1.5",
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
     "babel-preset-es2015": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-minify": "^0.4.3",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
+    "babel-runtime": "^6.26.0",
     "gulp": "^3.9.1",
     "gulp-babel": "^7.0.1",
     "gulp-concat": "^2.6.1",

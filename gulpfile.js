@@ -6,3 +6,9 @@ gulp.task("default", function () {
         .pipe(babel())
         .pipe(gulp.dest("dist"));
 });
+
+gulp.task("es6", function () {
+    return gulp.src("app/*.js")
+        .pipe(babel())
+        .pipe(gulp.dest("dist"));
+});
